@@ -1,4 +1,4 @@
-package org.lab1.cosmocats.entity;
+package org.laboratory.cosmocats.entity;
 
 import com.sun.istack.NotNull;
 import jakarta.persistence.Entity;

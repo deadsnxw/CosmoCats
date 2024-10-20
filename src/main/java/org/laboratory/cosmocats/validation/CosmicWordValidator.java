@@ -1,4 +1,4 @@
-package org.lab1.cosmocats.validation;
+package org.laboratory.cosmocats.validation;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
