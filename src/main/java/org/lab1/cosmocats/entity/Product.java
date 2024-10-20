@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
+import org.lab1.cosmocats.validation.CosmicWordCheck;
 
 @Getter
 @Setter
@@ -16,6 +17,7 @@ public class Product {
     private Long id;
 
     @NotNull
+    @CosmicWordCheck
     private String name;
 
     @NotNull
